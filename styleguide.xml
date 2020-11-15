@@ -2430,8 +2430,12 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
         <entry_instructions>Entrant must specify a strength (session, standard, double); if no strength is specified, standard will be assumed. Entrant must specify specific type of Specialty IPA from the library of known types listed in the Style Guidelines, or as amended by the BJCP web site; or the entrant must describe the type of Specialty IPA and its key characteristics in comment form so judges will know what to expect. Entrants may specify specific hop varieties used, if entrants feel that judges may not recognize the varietal characteristics of newer hops. Entrants may specify a combination of defined IPA types (e.g., Black Rye IPA) without providing additional descriptions. Entrants may use this category for a different strength version of an IPA defined by its own BJCP subcategory (e.g., session-strength American or English IPA) – except where an existing BJCP subcategory already exists for that style (e.g., double [American] IPA). Currently Defined Types: Black IPA, Brown IPA, White IPA, Rye IPA, Belgian IPA, Red IPA
           
           <p>Strength classifications:
-          <ul><li>Session – ABV: 3.0 – 5.0%</li><li>Standard – ABV: 5.0 – 7.5%</li><li>Double – ABV: 7.5 – 10.0%</li></ul>
-        </p>
+            <ul>
+              <li>Session – ABV: 3.0 – 5.0%</li>
+              <li>Standard – ABV: 5.0 – 7.5%</li>
+              <li>Double – ABV: 7.5 – 10.0%</li>
+            </ul>
+          </p>
         </entry_instructions>
         <stats>
           <ibu flexible="true">
@@ -4236,15 +4240,17 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
             <definitionterm>Sweetness.</definitionterm>
             <definition>
               A mead may be dry, semi-sweet, or sweet. Sweetness simply refers to the amount of residual sugar in the mead. Sweetness is often confused with fruitiness in a dry mead. Body is related to sweetness, but dry meads can still have some body. Dry meads do not have to be bone dry. Sweet meads should not be cloyingly sweet, and should not have a raw, unfermented honey character. Sweetness is independent of strength. Note that tannin levels can affect the perceived sweetness of mead (more tannin makes a mead seem drier), but acidity is more related to the quality, balance, and enjoyment of the sweetness. The purpose of identifying a sweetness level is primarily to aid in the ordering of a flight. <em>Minor differences from stated sweetness level should not be heavily-penalized or considered a disqualifying fault.</em>
-           </definition>
+            </definition>
           </definitionitem>
           <definitionitem>
             <definitionterm>Carbonation.</definitionterm>
-            <definition>A mead may be still, petillant, or sparkling. Still meads do not have to be totally flat; they can have some very light bubbles. Petillant meads are lightly sparkling and can have a moderate, noticeable amount of carbonation. Sparkling meads are not gushing, but may have a character ranging from mouth-filling to an impression akin to Champagne or carbonated water. <em>Minor differences from stated carbonation level should not be heavily-penalized or considered a disqualifying fault.</em></definition>
+            <definition>A mead may be still, petillant, or sparkling. Still meads do not have to be totally flat; they can have some very light bubbles. Petillant meads are lightly sparkling and can have a moderate, noticeable amount of carbonation. Sparkling meads are not gushing, but may have a character ranging from mouth-filling to an impression akin to Champagne or carbonated water. <em>Minor differences from stated carbonation level should not be heavily-penalized or considered a disqualifying fault.</em>
+            </definition>
           </definitionitem>
           <definitionitem>
             <definitionterm>Strength.</definitionterm>
-            <definition>A mead may be still, petillant, or sparkling. Still meads do not have to be totally flat; they can have some very light bubbles. Petillant meads are lightly sparkling and can have a moderate, noticeable amount of carbonation. Sparkling meads are not gushing, but may have a character ranging from mouth-filling to an impression akin to Champagne or carbonated water. <em>Minor differences from stated carbonation level should not be heavily-penalized or considered a disqualifying fault.</em></definition>
+            <definition>A mead may be still, petillant, or sparkling. Still meads do not have to be totally flat; they can have some very light bubbles. Petillant meads are lightly sparkling and can have a moderate, noticeable amount of carbonation. Sparkling meads are not gushing, but may have a character ranging from mouth-filling to an impression akin to Champagne or carbonated water. <em>Minor differences from stated carbonation level should not be heavily-penalized or considered a disqualifying fault.</em>
+            </definition>
           </definitionitem>
           <definitionitem>
             <definitionterm>Honey variety.  </definitionterm>
@@ -4286,36 +4292,70 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
           </definitionitem>
           <definitionitem>
             <definitionterm>Vital Statistics:</definitionterm>
-            <definition><div class="meadstats"><span class="label">
-     OG:</span><span class="innerlabel">
-     hydromel:</span><span>
-     1.035 - 1.080</span><span class="innerlabel">
-     standard:</span><span>
-     1.080 - 1.120</span><span class="innerlabel">
-     sack:</span><span>
-     1.120 - 1.170</span></div><div class="meadstats"><span class="label">
-     ABV:</span><span class="innerlabel">
-     hydromel:</span><span>
-     3.5 - 7.5%</span><span class="innerlabel">
-     standard:</span><span>
-     7.5 - 14%</span><span class="innerlabel">
-     sack:</span><span>
-     14 - 18%</span></div><div class="meadstats"><span class="label">
-     FG:</span><span class="innerlabel">
-     dry:</span><span>
-     0.990 - 1.010</span><span class="innerlabel">
-     semi-sweet:</span><span>
-     1.010 - 1.025</span><span class="innerlabel">
-     sweet:</span><span>
-     1.025 - 1.050</span></div>
+            <definition>
+              <div class="meadstats">
+                <span class="label">
+     OG:</span>
+                <span class="innerlabel">
+     hydromel:</span>
+                <span>
+     1.035 - 1.080</span>
+                <span class="innerlabel">
+     standard:</span>
+                <span>
+     1.080 - 1.120</span>
+                <span class="innerlabel">
+     sack:</span>
+                <span>
+     1.120 - 1.170</span>
+              </div>
+              <div class="meadstats">
+                <span class="label">
+     ABV:</span>
+                <span class="innerlabel">
+     hydromel:</span>
+                <span>
+     3.5 - 7.5%</span>
+                <span class="innerlabel">
+     standard:</span>
+                <span>
+     7.5 - 14%</span>
+                <span class="innerlabel">
+     sack:</span>
+                <span>
+     14 - 18%</span>
+              </div>
+              <div class="meadstats">
+                <span class="label">
+     FG:</span>
+                <span class="innerlabel">
+     dry:</span>
+                <span>
+     0.990 - 1.010</span>
+                <span class="innerlabel">
+     semi-sweet:</span>
+                <span>
+     1.010 - 1.025</span>
+                <span class="innerlabel">
+     sweet:</span>
+                <span>
+     1.025 - 1.050</span>
+              </div>
      Note that the perception of sweetness is a function of the percentage of residual sugar, so don't rely only on FG to determine sweetness. Consider the OG, strength, tannin levels, and to a lesser extent, acidity, in assessing sweetness.
-     <div class="meadstats"><span class="label">
-     IBUs:</span><span>
-     not relevant for anything but braggot, but bittering hops are optional even in this style.</span></div>
-     <div class="meadstats"><span class="label">
-     SRM:</span><span>
+              <div class="meadstats">
+                <span class="label">
+     IBUs:</span>
+                <span>
+     not relevant for anything but braggot, but bittering hops are optional even in this style.</span>
+              </div>
+              <div class="meadstats">
+                <span class="label">
+     SRM:</span>
+                <span>
      basically irrelevant since honey can be anything from almost clear to dark brown. Cysers are most often golden. Other fruit-based meads and pyments can have orange, red, pink and/or purple hues. Braggots can be yellow to black. In all cases, the color should reflect the ingredients used (type of honey, and fruit and/or malt in some styles).
-     </span></div></definition>
+                </span>
+              </div>
+            </definition>
           </definitionitem>
         </definitionlist>
       </section>
@@ -4363,15 +4403,15 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
         <entry_instructions>See Introduction to Mead Guidelines for entry requirements. Entrants MUST specify carbonation level and strength. Sweetness is assumed to be DRY in this category. Entrants MAY specify honey varieties.</entry_instructions>
         <stats>
           <ibu flexible="true">
-             </ibu>
+          </ibu>
           <og flexible="true">
-             </og>
+          </og>
           <fg flexible="true">
-             </fg>
+          </fg>
           <srm flexible="true">
-             </srm>
+          </srm>
           <abv flexible="true">
-             </abv>
+          </abv>
         </stats>
       </subcategory>
       <subcategory id="M1B">
@@ -4385,15 +4425,15 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
         <entry_instructions>See Introduction to Mead Guidelines for entry requirements. Entrants MUST specify carbonation level and strength. Sweetness is assumed to be SEMI-SWEET in this category. Entrants MAY specify honey varieties.</entry_instructions>
         <stats>
           <ibu flexible="true">
-             </ibu>
+          </ibu>
           <og flexible="true">
-             </og>
+          </og>
           <fg flexible="true">
-             </fg>
+          </fg>
           <srm flexible="true">
-             </srm>
+          </srm>
           <abv flexible="true">
-             </abv>
+          </abv>
         </stats>
       </subcategory>
       <subcategory id="M1C">
@@ -4407,15 +4447,15 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
         <entry_instructions>See Introduction to Mead Guidelines for entry requirements. Entrants MUST specify carbonation level and strength. Sweetness is assumed to be SWEET in this category. Entrants MAY specify honey varieties.</entry_instructions>
         <stats>
           <ibu flexible="true">
-             </ibu>
+          </ibu>
           <og flexible="true">
-             </og>
+          </og>
           <fg flexible="true">
-             </fg>
+          </fg>
           <srm flexible="true">
-             </srm>
+          </srm>
           <abv flexible="true">
-             </abv>
+          </abv>
         </stats>
       </subcategory>
     </category>
@@ -4434,15 +4474,15 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
         <entry_instructions>See Introduction to Mead Guidelines for entry requirements. Entrants MUST specify carbonation level, strength, and sweetness. Entrants MAY specify honey varieties. Entrants MAY specify the varieties of apple used; if specified, a varietal character will be expected. Products with a relatively low proportion of honey are better entered as a Specialty Cider. A spiced cyser should be entered as a Fruit and Spice Mead. A cyser with other fruit should be entered as a Melomel. A cyser with additional ingredients should be entered as an Experimental Mead.</entry_instructions>
         <stats>
           <ibu flexible="true">
-             </ibu>
+          </ibu>
           <og flexible="true">
-             </og>
+          </og>
           <fg flexible="true">
-             </fg>
+          </fg>
           <srm flexible="true">
-             </srm>
+          </srm>
           <abv flexible="true">
-             </abv>
+          </abv>
         </stats>
       </subcategory>
       <subcategory id="M2B">
@@ -4456,15 +4496,15 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
         <entry_instructions>See Introduction to Mead Guidelines for entry requirements. Entrants MUST specify carbonation level, strength, and sweetness. Entrants MAY specify honey varieties. Entrants MAY specify the varieties of grape used; if specified, a varietal character will be expected. A spiced pyment (hippocras) should be entered as a Fruit and Spice Mead. A pyment made with other fruit should be entered as a Melomel. A pyment with other ingredients should be entered as an Experimental Mead.</entry_instructions>
         <stats>
           <ibu flexible="true">
-             </ibu>
+          </ibu>
           <og flexible="true">
-             </og>
+          </og>
           <fg flexible="true">
-             </fg>
+          </fg>
           <srm flexible="true">
-             </srm>
+          </srm>
           <abv flexible="true">
-             </abv>
+          </abv>
         </stats>
       </subcategory>
       <subcategory id="M2C">
@@ -4479,15 +4519,15 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
         <entry_instructions>See Introduction to Mead Guidelines for entry requirements. Entrants MUST specify carbonation level, strength, and sweetness. Entrants MAY specify honey varieties. Entrants MUST specify the varieties of fruit used. A mead made with both berries and non-berry fruit (including apples and grapes) should be entered as a Melomel. A berry mead that is spiced should be entered as a Fruit and Spice Mead. A berry mead containing other ingredients should be entered as an Experimental Mead.</entry_instructions>
         <stats>
           <ibu flexible="true">
-             </ibu>
+          </ibu>
           <og flexible="true">
-             </og>
+          </og>
           <fg flexible="true">
-             </fg>
+          </fg>
           <srm flexible="true">
-             </srm>
+          </srm>
           <abv flexible="true">
-             </abv>
+          </abv>
         </stats>
       </subcategory>
       <subcategory id="M2D">
@@ -4502,15 +4542,15 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
         <entry_instructions>See Introduction to Mead Guidelines for entry requirements. Entrants MUST specify carbonation level, strength, and sweetness. Entrants MAY specify honey varieties. Entrants MUST specify the varieties of fruit used. A stone fruit mead that is spiced should be entered as a Fruit and Spice Mead. A stone fruit mead that contains non-stone fruit should be entered as a Melomel. A stone fruit mead that contains other ingredients should be entered as an Experimental Mead.</entry_instructions>
         <stats>
           <ibu flexible="true">
-             </ibu>
+          </ibu>
           <og flexible="true">
-             </og>
+          </og>
           <fg flexible="true">
-             </fg>
+          </fg>
           <srm flexible="true">
-             </srm>
+          </srm>
           <abv flexible="true">
-             </abv>
+          </abv>
         </stats>
       </subcategory>
       <subcategory id="M2E">
@@ -4525,15 +4565,15 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
         <entry_instructions>See Introduction to Mead Guidelines for entry requirements. Entrants MUST specify carbonation level, strength, and sweetness. Entrants MAY specify honey varieties. Entrants MUST specify the varieties of fruit used. A melomel that is spiced should be entered as a Fruit and Spice Mead. A melomel containing other ingredients should be entered as an Experimental Mead. Melomels made with either apples or grapes as the only fruit source should be entered as a Cyser or Pyment, respectively. Melomels with apples or grapes, plus other fruit should be entered in this category, not Experimental Mead.</entry_instructions>
         <stats>
           <ibu flexible="true">
-             </ibu>
+          </ibu>
           <og flexible="true">
-             </og>
+          </og>
           <fg flexible="true">
-             </fg>
+          </fg>
           <srm flexible="true">
-             </srm>
+          </srm>
           <abv flexible="true">
-             </abv>
+          </abv>
         </stats>
       </subcategory>
     </category>
@@ -4553,15 +4593,15 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
         <entry_instructions>See Introduction to Mead Guidelines for entry requirements. Entrants MUST specify carbonation level, strength, and sweetness. Entrants MAY specify honey varieties. Entrants MUST specify the types of spices used, (although well-known spice blends may be referred to by common name, such as apple pie spices). Entrants MUST specify the types of fruits used. If only combinations of spices are used, enter as a Spice, Herb, or Vegetable Mead. If only combinations of fruits are used, enter as a Melomel. If other types of ingredients are used, enter as an Experimental Mead.</entry_instructions>
         <stats>
           <ibu flexible="true">
-             </ibu>
+          </ibu>
           <og flexible="true">
-             </og>
+          </og>
           <fg flexible="true">
-             </fg>
+          </fg>
           <srm flexible="true">
-             </srm>
+          </srm>
           <abv flexible="true">
-             </abv>
+          </abv>
         </stats>
       </subcategory>
       <subcategory id="M3B">
@@ -4576,15 +4616,15 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
         <entry_instructions>See Introduction to Mead Guidelines for entry requirements. Entrants MUST specify carbonation level, strength, and sweetness. Entrants MAY specify honey varieties. Entrants MUST specify the types of spices used (although well-known spice blends may be referred to by common name, such as apple pie spices).</entry_instructions>
         <stats>
           <ibu flexible="true">
-             </ibu>
+          </ibu>
           <og flexible="true">
-             </og>
+          </og>
           <fg flexible="true">
-             </fg>
+          </fg>
           <srm flexible="true">
-             </srm>
+          </srm>
           <abv flexible="true">
-             </abv>
+          </abv>
         </stats>
       </subcategory>
     </category>
@@ -4604,15 +4644,15 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
         <entry_instructions>See Introduction to Mead Guidelines for entry requirements. Entrants MUST specify carbonation level, strength, and sweetness. Entrants MAY specify honey varieties. Entrants MAY specify the base style or beer or types of malt used. Products with a relatively low proportion of honey should be entered as an Alternative Sugar Beer.</entry_instructions>
         <stats>
           <ibu flexible="true">
-             </ibu>
+          </ibu>
           <og flexible="true">
-             </og>
+          </og>
           <fg flexible="true">
-             </fg>
+          </fg>
           <srm flexible="true">
-             </srm>
+          </srm>
           <abv flexible="true">
-             </abv>
+          </abv>
         </stats>
       </subcategory>
       <subcategory id="M4B">
@@ -4622,15 +4662,15 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
         <entry_instructions>See Introduction to Mead Guidelines for entry requirements. Entrants MUST specify carbonation level, strength, and sweetness. Entrants MAY specify honey varieties. Entrants MUST specify the special nature of the mead, providing a description of the mead for judges if no such description is available from the BJCP.</entry_instructions>
         <stats>
           <ibu flexible="true">
-             </ibu>
+          </ibu>
           <og flexible="true">
-             </og>
+          </og>
           <fg flexible="true">
-             </fg>
+          </fg>
           <srm flexible="true">
-             </srm>
+          </srm>
           <abv flexible="true">
-             </abv>
+          </abv>
         </stats>
       </subcategory>
       <subcategory id="M4C">
@@ -4640,15 +4680,15 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
         <entry_instructions>See Introduction to Mead Guidelines for entry requirements. Entrants MUST specify carbonation level, strength, and sweetness. Entrants MAY specify honey varieties. Entrants MUST specify the special nature of the mead, whether it is a combination of existing styles, an experimental mead, or some other creation. Any special ingredients that impart an identifiable character MAY be declared.</entry_instructions>
         <stats>
           <ibu flexible="true">
-             </ibu>
+          </ibu>
           <og flexible="true">
-             </og>
+          </og>
           <fg flexible="true">
-             </fg>
+          </fg>
           <srm flexible="true">
-             </srm>
+          </srm>
           <abv flexible="true">
-             </abv>
+          </abv>
         </stats>
       </subcategory>
     </category>
@@ -4667,8 +4707,14 @@ Revision 1: 17 July 2015 by Phil Murray <phil@brewaucracy.co.nz>
           <li>Ciders and perries do not necessarily present overtly fruity aromas or flavors — in the same sense that a wine does not taste overtly of grapes. Drier styles of cider in particular develop more complex but less fruity characters. A simple apple soda or wine cooler character is not desirable in a cider or perry.</li>
           <li>Some styles of cider exhibit distinctly non-fruity tastes or aromas, such as the smoky ham undertones of a dry English cider</li>
           <li>The sweetness (residual sugar, or RS) of a cider or perry may vary from absolutely dry (no RS) to as much as a sweet dessert wine (10% or more RS). In sweeter ciders, other components of taste — particularly acidity — must balance the sweetness. The level of sweetness must be specified so organizers and judges can arrange flights of tastings and entries within flights. Tasting should always proceed from drier to sweeter. There are five categories of sweetness, expanded from three in earlier guidelines. Note that the numbers for these levels are not rigid or restrictive. They are intended to guide the cidermaker on how to enter, not to be used as judging criteria unless a cider is declared at a sweetness level far from its actual sweetness. Judges must realize that sweetness can mask faults. Be more attentive to this in a sweeter cider. Likewise, do not penalize dry ciders excessively for minor faults which may be more evident only because of lack of sweetness. The categories and approximate sugar levels are as follows. Final gravities are particularly rough numbers since they cannot take account of what the SG would be if the cider fermented out completely.
-  <ol><li>Dry: below 0.4% residual sugar. This corresponds to a final specific gravity less than 1.002. There is no perception of sweetness</li><li>Medium-dry: 0.4-0.9% residual sugar. This corresponds to a final specific gravity of 1.002-1.004. There is a hint of sweetness but the cider is still perceived primarily as dry. Also known as semi-dry</li><li>Medium: in the range between dry and sweet, 0.9-2.0% residual sugar, final gravity 1.004-1.009. Sweetness is now a notable component of the overall character.
-o	Medium-sweet: 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is sweet but still refreshing. Also known as semi-sweet.</li><li>Sweet: above 4.0% residual sugar, roughly equivalent to a final gravity of over 1.019. The cider has the character of a dessert wine. It must not be cloying; see notes on balance.</li></ol></li>
+            <ol>
+              <li>Dry: below 0.4% residual sugar. This corresponds to a final specific gravity less than 1.002. There is no perception of sweetness</li>
+              <li>Medium-dry: 0.4-0.9% residual sugar. This corresponds to a final specific gravity of 1.002-1.004. There is a hint of sweetness but the cider is still perceived primarily as dry. Also known as semi-dry</li>
+              <li>Medium: in the range between dry and sweet, 0.9-2.0% residual sugar, final gravity 1.004-1.009. Sweetness is now a notable component of the overall character.
+o	Medium-sweet: 2.0-4.0% residual sugar, final gravity 1.009-1.019. The cider is sweet but still refreshing. Also known as semi-sweet.</li>
+              <li>Sweet: above 4.0% residual sugar, roughly equivalent to a final gravity of over 1.019. The cider has the character of a dessert wine. It must not be cloying; see notes on balance.</li>
+            </ol>
+          </li>
           <li>If a cider is close to one of these boundaries, it should be identified by the sweetness category which best describes the overall impression it gives. The five categories above were expanded from the earlier three dry-medium-sweet by splitting the dry and medium categories</li>
           <li>Acidity is an essential element of cider and perry: it must be sufficient to give a clean, refreshing impression without being puckering. Acidity (from malic and in some cases lactic acids) must not be confused with acetification (from ethyl acetate or acetic acid—vinegar). The acrid aroma and tingling taste of acetification is a fault</li>
           <li>Ciders and perries vary considerably in tannin. This affects both bitterness and astringency (see Mouthfeel below). If made from culinary or table fruit, tannins are typically low; nevertheless some tannin is desirable to balance the character. The character contributed by tannin should be mainly astringency rather than bitterness. An overt or forward bitterness is a fault, and is often due to processing techniques rather than fruit character.</li>

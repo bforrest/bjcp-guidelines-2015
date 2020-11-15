@@ -1,0 +1,19 @@
+<html>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.28/vue.min.js"></script>
+<head>
+<body>
+
+<div v-for="data in myJson">{{data}}</div>
+<script>
+      import json from 'beer-styles.json'
+      export default{
+          data(){
+              return{
+                  myJson: json
+              }
+          }
+      }
+</script>
+</body>
+</html>
